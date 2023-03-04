@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jazpher Alad Resume</title>
+    </head>
+    <style>
+        body {
+            background: #e1e1ea;
+            font-family: 'Roboto';
+            margin: auto;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .left-box{
+            float: left;
+            box-shadow: 10px 10px 5px grey;
+            background-color: teal;
+            height: 961px;
+            width: 270px;
+            box-sizing: border-box;
+            margin: 15px 15px 15px 15px;
+        }
+        .top-left{
+            position: relative;
+            border-style: solid;
+            border-width: 0px 0px 3px 0px;
+            box-sizing: border-box;
+            height: 25%;
+            margin: 0px;
+        }
+
+        .name {
+            position: absolute;
+            font-size: 20px;
+            color: white;
+            bottom: 0px;
+            left: 1px;
+            box-sizing: border-box;
+        }
+        img { 
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        .objective {
+            border-style: solid;
+            border-width: 0px 0px 2px 0px ;
+            margin: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .objective-img{
+            float: left;
+            width: 20px;
+            height: 20px;
+        }
+        .objective-text{
+            display: inline;
+            font-size: 9pt;
+            text-align: left;
+            color: white;
+            box-sizing: border-box;
+            margin: 15px 15px 15px 15px;
+        }
+        .phone{
+            border-style: solid;
+            border-width: 0px 0px 2px 0px;
+            box-sizing: border-box;
+            margin: 10px;
+            padding: 10px;
+        }
+        .phone-text {
+            display: inline;
+            text-align: left;
+            font-size: 10pt;
+            color: white;
+            margin: 15px 15px 15px 15px;
+            box-sizing: border-box;
+        }
+        .email{
+            border-style: solid;
+            border-width: 0px 0px 0px 0px;
+            box-sizing: border-box;
+            margin: 15px;
+            padding: 10px;
+        }
+        .email-text {
+            display: inline;
+            text-align: left;
+            font-size: 10pt;
+            color: white;
+            margin: 15px 15px 15px 15px;
+            box-sizing: border-box;
+        }
+        .work-experience {
+            float: left;
+            box-shadow: 10px 10px 5px grey;
+            background-color: white;
+            height: 300px;
+            width: 850px;
+            margin: 15px 15px 15px 15px;
+            box-sizing: border-box;
+        }
+        .work-img {
+            float: left;
+            height: auto;
+            width: 50px;
+            margin: 25px 30px 100% 30px;
+            box-sizing: border-box;
+        }
+        .job-box{
+            float: left;
+            border: solid;
+            background-color: white;
+            font-size: 11.5pt;
+            border-width: 0px 0px 3px 0px;
+            box-sizing: border-box;
+            margin: 0px 10px 0px 0px;
+            padding: 10px 10px 10px 10px;
+            width: 200px;
+            height: auto;
+        }
+        .job-box:hover {
+            background-color: gray;
+        }
+        .job-title {
+            font-weight: bold;
+            line-height: 1.5;
+            box-sizing: border-box;
+        }
+        .job-date{
+            color: #b30000;
+            line-height: 1.5;
+            box-sizing: border-box;
+        }
+        .job-description{
+            line-height: 1.5;
+            box-sizing: border-box;
+        }
+/**Education box**/
+        .education {
+            float: left;
+            box-shadow: 10px 10px 5px grey;
+            background-color: white;
+            box-sizing: border-box;
+            height: 300px;
+            width: 850px;
+            margin: 15px 15px 15px 15px;
+        }
+/**interest box**/
+        .interest {
+            float: left;
+            box-shadow: 10px 10px 5px grey;
+            background-color: white;
+            box-sizing: border-box;
+            height: 300px;
+            width: 410px;
+            margin: 15px 15px 15px 15px;
+        }
+/**Skills box**/
+        .skills {
+            float: left;
+            box-shadow: 10px 10px 5px grey;
+            background-color: white;
+            box-sizing: border-box;
+            height: 300px;
+            width: 410px;
+            margin: 15px 15px 15px 15px;
+        }
+        ul {
+            list-style: none;
+            margin: 10px 20px 20px 45px;
+        }
+        li.l1 {
+            border-width: 1px;
+            margin: 10px 110px 10px 0px;
+        }
+        li.l2 {
+            border-width: 1px;
+            margin: 10px 130px 10px 0px;
+        }
+        li.l3 {
+            border-width: 1px;
+            margin: 10px 0px 10px 0px;
+        }
+        li.l4 {
+            border-width: 1px;
+            margin: 10px 90px 10px 0px;
+            padding: 0px 101px 0px 0px;
+        }
+    </style>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <div class="left-box">
+            <div class="top-left">
+                <img src="jazpher.jpg" alt="Jazpher">
+                <div class="name"></div>
+                <div class="objective">
+                    <img class="objective-img" src="person-icon.png">
+                    <div class="objective-text"><b>Personal Information</b><br><br><b>Name:</b> Jazpher Emmanuel T. Alad<br>
+                        <b>Address:</b> Brgy. Taft Pakil, Laguna<br><b>Birth Date:</b> September 10, 2003<br><b>Age:</b> 19 years old<br>
+                        <b>Civil Status:</b> Single<br><b>Religion:</b> Catholic<br><b>Nationality:</b> Filipino
+        </div>
+      </div>
+      <div class="phone">
+        <img class="objective-img" src="con.jpg">
+        <div class="phone-text"><b>Contact Information</b><br><br><b>Globe/TM:</b> 09755694870<br><b>Facebook:</b> Jazpher Alad<br>
+            <b>Instagram:</b> @jazpheralad_
+        </div>
+    </div>
+    <div class="email">
+        <img class="objective-img" src="mail.png">
+        <div class="email-text"><b>Email Accounts</b><b><br><br>Personal:</b><br>jazpheralad3@gmail.com<br>
+            <b>Institutional:</b> jazpheremmanuel.alad@lspu.edu.ph
+        </div>
+    </div>
+    </div>
+    </div>
+        <div class="work-experience">
+            <div class="work-img"> <img src="laptop.png">
+            </div>
+            <h1 class="work-title">Work Experience</h1>
+            <div class="job-box">
+                <div class="job-title">SPES</div>
+                <div class="job-date">Year 2019</div>
+                <div class="job-description">Assigned Office: <b>BPLO</b></div>
+            </div>
+            <div class="job-box">
+                <div class="job-title">Resort Staff</div>
+                <div class="job-date">2020 - Present</div>
+                <div class="job-description">Sun Star Moon Resort</div>
+            </div>
+            <div class="job-box">
+                <div class="job-title">Licensing Office</div>
+                <div class="job-date">Year 2019</div>
+                <div class="job-description">Business Permit</div>
+            </div>
+        </div>
+        <div class="education">
+            <div class="work-img"> <img src="graduate.png">
+            </div>
+            <h1>Education</h1>
+            <div class="job-box">
+                <div class="job-title">Pangil Elementary School</div>
+                <div class="job-date">2007 -2009</div>
+                <div class="job-description"></div>
+            </div>
+            <div class="job-box">
+                <div class="job-title">Pakil Elementary School</div>
+                <div class="job-date">2010 - 2015</div>
+                <div class="job-description"></div>
+            </div>
+            <div class="job-box">
+                <div class="job-title">Liceo De Pakil</div>
+                <div class="job-date">2015 - 2021</div>
+                <div class="job-description"></div>
+            </div>
+            <div class="job-box">
+                <div class="job-title">LSPU Siniloan Campus</div>
+                <div class="job-date">2021 - Present</div>
+                <div class="job-description"></div>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="work-img"> <img src="sett.png">
+        </div>
+        <h1>Skills</h1>
+        <div class="graph">
+      <ul>
+        <li>Creativity</li><br>
+        <li>Communication Skills</li><br>
+        <li>Computer Proficiency</li><br>
+        <li>Collaboration</li>
+      </ul>
+    </div>
+</div>
+
+<div class="interest">
+    <div class="work-img"> <img src="interest.png">
+    </div>
+    <h1>Interests</h1>
+    <ul>
+        <li>Watching Movies</li><br>
+        <li>Playing Online Games</li><br>
+        <li>Reading</li><br>
+        <li>Designing</li><br>
+        <li>Workout</li>
+</div>
+</body>  
